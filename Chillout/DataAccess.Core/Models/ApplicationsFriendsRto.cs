@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Chillout.DataAccess.Core.Models
 {
     [Table("Applications")]
-    public class Applications_friends
+    public class ApplicationsFriendsRto
     {
         public int Id { get; set; }
 

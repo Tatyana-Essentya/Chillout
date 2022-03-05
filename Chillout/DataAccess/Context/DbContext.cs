@@ -14,7 +14,7 @@ namespace Chillout.DataAccess.Context
 
         public DbSet<UserRto> Users { get; set; }
         public DbSet<HistoryGameRto> HistoryGames { get; set; }
-        public DbSet<Applications_friends> HisroryApplications { get; set; }
+        public DbSet<ApplicationsFriendsRto> HisroryApplications { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -38,7 +38,7 @@ namespace Chillout.DataAccess.Context
                     .HasForeignKey(e => e.WinnerUserId)
                     .IsRequired();
             });
-            modelBuilder.Entity<Applications_friends>(builder =>
+            modelBuilder.Entity<ApplicationsFriendsRto>(builder =>
             {
                 builder
                     .HasOne<UserRto>(e => e.UserFirst)

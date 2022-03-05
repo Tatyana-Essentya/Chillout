@@ -10,7 +10,7 @@ namespace Chillout.DataAccess.Core.Interfaces.DbContext
     {
         DbSet<UserRto> Users { get; set; }
         DbSet<HistoryGameRto> HistoryGames { get; set; }
-        DbSet<Applications_friends> HisroryApplications { get; set; }
+        DbSet<ApplicationsFriendsRto> HisroryApplications { get; set; }
         Task<int> SaveChangesAsync(CancellationToken cancelationToken = default);
     }
 }
