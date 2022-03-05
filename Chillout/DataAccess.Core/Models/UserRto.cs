@@ -16,5 +16,8 @@ namespace Chillout.DataAccess.Core.Models
         public List<HistoryGameRto> HistoryGamesLeftUser { get; set; }
         public List<HistoryGameRto> HistoryGamesRightUser { get; set; }
         public List<HistoryGameRto> HistoryGamesWinnerUser { get; set; }
+
+        public List<ApplicationsFriendsRto> HistoryUserFirst { get; set; }
+        public List<ApplicationsFriendsRto> HistoryUserSecond { get; set; }
     }
 }

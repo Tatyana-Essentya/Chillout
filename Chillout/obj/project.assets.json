@@ -1156,23 +1156,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\titov\\.nuget\\packages\\": {},
+    "C:\\Users\\StudentDev\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\titov\\source\\repos\\Chillout\\Chillout\\Chillout.csproj",
+      "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\ChilloutS\\Chillout\\Chillout.csproj",
       "projectName": "Chillout",
-      "projectPath": "C:\\Users\\titov\\source\\repos\\Chillout\\Chillout\\Chillout.csproj",
-      "packagesPath": "C:\\Users\\titov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\titov\\source\\repos\\Chillout\\Chillout\\obj\\",
+      "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\ChilloutS\\Chillout\\Chillout.csproj",
+      "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\ChilloutS\\Chillout\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\titov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1185,6 +1185,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -1196,6 +1197,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -1226,7 +1228,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
