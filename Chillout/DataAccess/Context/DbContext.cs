@@ -14,6 +14,7 @@ namespace Chillout.DataAccess.Context
 
         public DbSet<UserRto> Users { get; set; }
         public DbSet<HistoryGameRto> HistoryGames { get; set; }
+        public DbSet<PostRto> Posts { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
