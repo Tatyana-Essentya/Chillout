@@ -13,6 +13,9 @@ namespace Chillout.DataAccess.Core.Models
         public int Balance { get; set; }
         public int MaxWinCountAce { get; set; }
 
+        public List<Friends> FriendsLeftFriend { get; set; }
+        public List<Friends> FriendsRightFriend { get; set; }
+        public List<Friends> FriendsWhosFriendFriend { get; set; }
         public List<HistoryGameRto> HistoryGamesLeftUser { get; set; }
         public List<HistoryGameRto> HistoryGamesRightUser { get; set; }
         public List<HistoryGameRto> HistoryGamesWinnerUser { get; set; }
