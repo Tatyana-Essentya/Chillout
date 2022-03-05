@@ -8,7 +8,7 @@ namespace Chillout.DataAccess.Core.Interfaces.DbContext
 {
     public interface IDbContext : IDisposable, IAsyncDisposable
     {
-        DbSet<UserRto> Users { get; set; }
+        DbSet<UserRto> Users { get; set; } 
         DbSet<HistoryGameRto> HistoryGames { get; set; }
         DbSet<PostRto> Posts { get; set; }
         Task<int> SaveChangesAsync(CancellationToken cancelationToken = default);
