@@ -14,7 +14,7 @@ namespace Chillout.DataAccess.Context
 
         public DbSet<UserRto> Users { get; set; }
         public DbSet<HistoryGameRto> HistoryGames { get; set; }
-        public DbSet<Friends> Friends { get; set; }
+        public DbSet<FriendsRto> Friends { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -40,7 +40,7 @@ namespace Chillout.DataAccess.Context
                 
 
             });
-            modelBuilder.Entity<Friends>(builder =>
+            modelBuilder.Entity<FriendsRto>(builder =>
             {
                 builder
                     .HasOne<UserRto>(e => e.LeftFriend)
@@ -49,7 +49,7 @@ namespace Chillout.DataAccess.Context
                     .IsRequired();
 
                 builder
-                    .HasOne<UserRto>(e => e.RightFriend)
+                    .HasOne<UserRto>(e => e.RightFriend) 
                     .WithMany(e => e.FriendsRightFriend)
                     .HasForeignKey(e => e.RightFriendId)
                     .IsRequired();
